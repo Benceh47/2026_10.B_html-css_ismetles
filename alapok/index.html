@@ -1,25 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS alapok</title>
+    <link rel="stylesheet" href="">
 </head>
+
 <body>
-        <!-- html elemek, html cimkék html tag-ek -->
-        <h1>HTML CSS alapok ismétlése</h1>
+    <!-- html elemek, html cimkék html tag-ek -->
+    <h1>HTML CSS alapok ismétlése</h1>
 
-        <h2>Címsorok</h2>
-        <h3>Címsor 3</h3>
-        <h4>Címsor 4</h4>
-        <h5>Címsor 5</h5>
-        <h6>Címsor 6</h6>
+    <h2 class="cimsorok">Címsorok</h2>
+    <h3 class="cimsorok">Címsor 3</h3>
+    <h4 class="cimsorok">Címsor 4</h4>
+    <h5 class="cimsorok">Címsor 5</h5>
+    <h6 class="cimsorok">Címsor 6</h6>
 
-        <h2>Bekezdések(paragrafus)</h2>
-        <p>
-            <b>Lorem ipsum dolor</b> <i> sit amet consectetur adipisicing </i>elit.<br> Aperiam asperiores quos fugiat doloremque doloribus beatae accusantium eveniet eius perspiciatis hic voluptates soluta accusamus excepturi ut cum, natus a sunt facilis.
-        </p>
+    <h2 class="paratlan_h2">Bekezdések(paragrafus)</h2>
+    <p>
+        <b>Lorem ipsum dolor</b> <i> sit amet consectetur adipisicing </i>elit.<br> Aperiam asperiores quos fugiat
+        doloremque doloribus beatae accusantium eveniet eius perspiciatis hic voluptates soluta accusamus excepturi ut
+        cum, natus a sunt facilis.
+    </p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio voluptas minima adipisci, dolorem eligendi vero doloribus tempore ipsum voluptatibus neque quod magni veritatis possimus omnis fuga unde! Neque, ratione.</p>
-    </body>
-</html>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio voluptas minima adipisci, dolorem
+        eligendi vero doloribus tempore ipsum voluptatibus neque quod magni veritatis possimus omnis fuga unde! Neque,
+        ratione.</p>
+
+     
+    <!-- Kép elhelyezése -->
+    <div class="container">
+        <img src="../alapok/img/channels4_banner.jpg" alt="gereb tamas" width="200" height="120">
+        <img src="../alapok/img/channels4_banner (1).jpg" alt="kedvenc youtuberem" width="200" height="120">
+    </div>
+
+    <h2>Hivatkozás</h2>
+    <h3>URL linkek </h3>
+    A <a href="https://google.com" target="_blank"> google</a> a szövegre kattintva.
+    <a href="../alapok/masikoldal.html" target="_blank">ERRE A SZÖVEGRE</a> kattintva megnyithatok egy másik oldalt.
+
+        <h2>táblázat</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Fejléc 1</th>
+                    <th>Fejléc 2</th>
+                    <th>Fejléc 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">2,3</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">4,7</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+
+    <!-- alt + shift +f = a kód formázása -->

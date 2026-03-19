@@ -1,0 +1,30 @@
+.container{
+    background-color: lightgray;
+    /* width: 75%; */
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    ˛/*margin, padding*/
+}
+
+h2{
+    background-color: blueviolet;
+}
+
+
+p{
+    background-color: lightblue;
+}
+
+.paratlan_h2 {
+    background-color: lightgreen;
+}
+
+#cimsorok {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 20px;
+    border: 2px solid black;
+    margin:  13px;
+}
