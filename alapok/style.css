@@ -3,12 +3,24 @@
     /* width: 75%; */
     width: 600px;
     margin: auto;
-    padding: 20px;
-    ˛/*margin, padding*/
+    /* padding: 20px 20px 20px 20px;  felső, jobb, alsó, bal */
+    /* padding: 20px 20px 20px; felsó oldalsók alsó */
+    /* padding: 20px 20px; felső-alsó oldalsók */
+    padding: 20px; /*minden oldalra 20px */
+    /*margin, padding*/
+    color: darkcyan;
+    box-shadow:5px 5px 8px black, -5px -5px 8px black;
 }
 
 h2{
     background-color: blueviolet;
+    text-shadow: 3px 3px 5px black;
+    box-shadow:5px 5px 8px black;
+    padding: 10px 0px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border:2px solid yellow;
 }
 
 
@@ -26,5 +38,5 @@ p{
     font-size: 32px;
     padding: 20px;
     border: 2px solid black;
-    margin:  13px;
+    /* margin:  13px; */
 }
